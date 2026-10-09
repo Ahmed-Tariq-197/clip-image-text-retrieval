@@ -1,0 +1,6 @@
+torch>=2.5
+transformers>=4.46,<5
+numpy>=1.26
+scikit-learn>=1.5
+matplotlib>=3.9
+pillow>=10.4

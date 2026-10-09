@@ -1,0 +1,60 @@
+{
+  "images": [
+    "astronaut",
+    "cat",
+    "coffee",
+    "rocket",
+    "cameraman",
+    "china",
+    "flower"
+  ],
+  "texts": [
+    "a portrait of an astronaut in an orange spacesuit",
+    "a close-up photo of a tabby cat's face",
+    "a cup of espresso on a red saucer",
+    "a rocket standing on a launch pad at night",
+    "a black and white photo of a man filming with a camera on a tripod",
+    "a multi-story traditional Chinese pagoda among trees",
+    "an orange dahlia flower",
+    "a person wearing a space suit",
+    "a dog running on grass",
+    "an astronaut walking on the moon",
+    "a cup of tea on a wooden table",
+    "an airplane taking off from a runway"
+  ],
+  "valid": {
+    "astronaut": [
+      0,
+      7
+    ],
+    "cat": [
+      1
+    ],
+    "coffee": [
+      2
+    ],
+    "rocket": [
+      3
+    ],
+    "cameraman": [
+      4
+    ],
+    "china": [
+      5
+    ],
+    "flower": [
+      6
+    ]
+  },
+  "hard_distractors": [
+    "a photographer taking a picture of a city skyline",
+    "a red rose in a garden",
+    "a lighthouse by the sea",
+    "a lion's face close-up",
+    "a cup of hot chocolate with a spoon",
+    "a cup of tea on a red saucer",
+    "a cup of hot chocolate on a red saucer",
+    "a person in an orange jacket holding a helmet"
+  ],
+  "notes": "Texts 8-11 have no valid image (distractors). T9/T10 are near-miss distractors for astronaut/coffee. hard_distractors have no valid image and are only used in the separately reported expanded run."
+}

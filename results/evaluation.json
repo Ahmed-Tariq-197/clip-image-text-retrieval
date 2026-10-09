@@ -1,0 +1,206 @@
+{
+  "clip-vit-base-patch32": {
+    "base": {
+      "metrics": {
+        "image_to_text": {
+          "top1_accuracy": 1.0,
+          "mean_rank": 1.0,
+          "n_evaluated": 7,
+          "n_excluded": 0
+        },
+        "text_to_image": {
+          "top1_accuracy": 1.0,
+          "mean_rank": 1.0,
+          "n_evaluated": 8,
+          "n_excluded": 4
+        }
+      },
+      "stats": {
+        "centroid_distance": 0.8831395506858826,
+        "mean_cosine_matched": 0.31635215878486633,
+        "mean_cosine_unmatched": 0.1487971842288971,
+        "std_cosine_matched": 0.024437913671135902,
+        "std_cosine_unmatched": 0.0374593622982502,
+        "n_projected_points": 19,
+        "tsne_perplexity": 5,
+        "seed": 42,
+        "pca_nearest_text_valid_rate": 0.2857142857142857,
+        "tsne_nearest_text_valid_rate": 0.14285714285714285,
+        "mean_image_image_cosine": 0.4788826107978821,
+        "mean_text_text_cosine": 0.5157641768455505
+      },
+      "failures": [],
+      "near_misses": [
+        {
+          "image": "coffee",
+          "invalid_text_id": 10,
+          "invalid_text": "a cup of tea on a wooden table",
+          "invalid_score": 0.2757498323917389,
+          "best_valid_score": 0.31534165143966675,
+          "margin": 0.039591819047927856
+        },
+        {
+          "image": "rocket",
+          "invalid_text_id": 7,
+          "invalid_text": "a person wearing a space suit",
+          "invalid_score": 0.21804927289485931,
+          "best_valid_score": 0.2987714409828186,
+          "margin": 0.08072216808795929
+        },
+        {
+          "image": "astronaut",
+          "invalid_text_id": 9,
+          "invalid_text": "an astronaut walking on the moon",
+          "invalid_score": 0.21604369580745697,
+          "best_valid_score": 0.29942217469215393,
+          "margin": 0.08337847888469696
+        }
+      ]
+    },
+    "expanded": {
+      "metrics": {
+        "image_to_text": {
+          "top1_accuracy": 1.0,
+          "mean_rank": 1.0,
+          "n_evaluated": 7,
+          "n_excluded": 0
+        },
+        "text_to_image": {
+          "top1_accuracy": 1.0,
+          "mean_rank": 1.0,
+          "n_evaluated": 8,
+          "n_excluded": 12
+        }
+      },
+      "failures": [],
+      "near_misses": [
+        {
+          "image": "astronaut",
+          "invalid_text_id": 19,
+          "invalid_text": "a person in an orange jacket holding a helmet",
+          "invalid_score": 0.27125614881515503,
+          "best_valid_score": 0.29942214488983154,
+          "margin": 0.028165996074676514
+        },
+        {
+          "image": "coffee",
+          "invalid_text_id": 10,
+          "invalid_text": "a cup of tea on a wooden table",
+          "invalid_score": 0.2757498621940613,
+          "best_valid_score": 0.3153415322303772,
+          "margin": 0.03959167003631592
+        },
+        {
+          "image": "cameraman",
+          "invalid_text_id": 12,
+          "invalid_text": "a photographer taking a picture of a city skyline",
+          "invalid_score": 0.28068697452545166,
+          "best_valid_score": 0.3506994843482971,
+          "margin": 0.07001250982284546
+        }
+      ]
+    }
+  },
+  "clip-vit-large-patch14": {
+    "base": {
+      "metrics": {
+        "image_to_text": {
+          "top1_accuracy": 1.0,
+          "mean_rank": 1.0,
+          "n_evaluated": 7,
+          "n_excluded": 0
+        },
+        "text_to_image": {
+          "top1_accuracy": 1.0,
+          "mean_rank": 1.0,
+          "n_evaluated": 8,
+          "n_excluded": 4
+        }
+      },
+      "stats": {
+        "centroid_distance": 0.9046869277954102,
+        "mean_cosine_matched": 0.2579728662967682,
+        "mean_cosine_unmatched": 0.09113982319831848,
+        "std_cosine_matched": 0.021822335198521614,
+        "std_cosine_unmatched": 0.03858282417058945,
+        "n_projected_points": 19,
+        "tsne_perplexity": 5,
+        "seed": 42,
+        "pca_nearest_text_valid_rate": 0.42857142857142855,
+        "tsne_nearest_text_valid_rate": 0.14285714285714285,
+        "mean_image_image_cosine": 0.5285819172859192,
+        "mean_text_text_cosine": 0.3853693902492523
+      },
+      "failures": [],
+      "near_misses": [
+        {
+          "image": "coffee",
+          "invalid_text_id": 10,
+          "invalid_text": "a cup of tea on a wooden table",
+          "invalid_score": 0.18987326323986053,
+          "best_valid_score": 0.2516423761844635,
+          "margin": 0.061769112944602966
+        },
+        {
+          "image": "astronaut",
+          "invalid_text_id": 9,
+          "invalid_text": "an astronaut walking on the moon",
+          "invalid_score": 0.17679139971733093,
+          "best_valid_score": 0.24035882949829102,
+          "margin": 0.06356742978096008
+        },
+        {
+          "image": "china",
+          "invalid_text_id": 2,
+          "invalid_text": "a cup of espresso on a red saucer",
+          "invalid_score": 0.13597732782363892,
+          "best_valid_score": 0.24397310614585876,
+          "margin": 0.10799577832221985
+        }
+      ]
+    },
+    "expanded": {
+      "metrics": {
+        "image_to_text": {
+          "top1_accuracy": 1.0,
+          "mean_rank": 1.0,
+          "n_evaluated": 7,
+          "n_excluded": 0
+        },
+        "text_to_image": {
+          "top1_accuracy": 1.0,
+          "mean_rank": 1.0,
+          "n_evaluated": 8,
+          "n_excluded": 12
+        }
+      },
+      "failures": [],
+      "near_misses": [
+        {
+          "image": "astronaut",
+          "invalid_text_id": 19,
+          "invalid_text": "a person in an orange jacket holding a helmet",
+          "invalid_score": 0.20901432633399963,
+          "best_valid_score": 0.2403588891029358,
+          "margin": 0.03134456276893616
+        },
+        {
+          "image": "cameraman",
+          "invalid_text_id": 12,
+          "invalid_text": "a photographer taking a picture of a city skyline",
+          "invalid_score": 0.21483999490737915,
+          "best_valid_score": 0.2734772264957428,
+          "margin": 0.05863723158836365
+        },
+        {
+          "image": "coffee",
+          "invalid_text_id": 10,
+          "invalid_text": "a cup of tea on a wooden table",
+          "invalid_score": 0.18987324833869934,
+          "best_valid_score": 0.2516423761844635,
+          "margin": 0.06176912784576416
+        }
+      ]
+    }
+  }
+}

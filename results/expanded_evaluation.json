@@ -1,0 +1,88 @@
+{
+  "clip-vit-base-patch32": {
+    "metrics": {
+      "image_to_text": {
+        "top1_accuracy": 1.0,
+        "mean_rank": 1.0,
+        "n_evaluated": 7,
+        "n_excluded": 0
+      },
+      "text_to_image": {
+        "top1_accuracy": 1.0,
+        "mean_rank": 1.0,
+        "n_evaluated": 8,
+        "n_excluded": 12
+      }
+    },
+    "failures": [],
+    "near_misses": [
+      {
+        "image": "astronaut",
+        "invalid_text_id": 19,
+        "invalid_text": "a person in an orange jacket holding a helmet",
+        "invalid_score": 0.27125614881515503,
+        "best_valid_score": 0.29942214488983154,
+        "margin": 0.028165996074676514
+      },
+      {
+        "image": "coffee",
+        "invalid_text_id": 10,
+        "invalid_text": "a cup of tea on a wooden table",
+        "invalid_score": 0.2757498621940613,
+        "best_valid_score": 0.3153415322303772,
+        "margin": 0.03959167003631592
+      },
+      {
+        "image": "cameraman",
+        "invalid_text_id": 12,
+        "invalid_text": "a photographer taking a picture of a city skyline",
+        "invalid_score": 0.28068697452545166,
+        "best_valid_score": 0.3506994843482971,
+        "margin": 0.07001250982284546
+      }
+    ]
+  },
+  "clip-vit-large-patch14": {
+    "metrics": {
+      "image_to_text": {
+        "top1_accuracy": 1.0,
+        "mean_rank": 1.0,
+        "n_evaluated": 7,
+        "n_excluded": 0
+      },
+      "text_to_image": {
+        "top1_accuracy": 1.0,
+        "mean_rank": 1.0,
+        "n_evaluated": 8,
+        "n_excluded": 12
+      }
+    },
+    "failures": [],
+    "near_misses": [
+      {
+        "image": "astronaut",
+        "invalid_text_id": 19,
+        "invalid_text": "a person in an orange jacket holding a helmet",
+        "invalid_score": 0.20901432633399963,
+        "best_valid_score": 0.2403588891029358,
+        "margin": 0.03134456276893616
+      },
+      {
+        "image": "cameraman",
+        "invalid_text_id": 12,
+        "invalid_text": "a photographer taking a picture of a city skyline",
+        "invalid_score": 0.21483999490737915,
+        "best_valid_score": 0.2734772264957428,
+        "margin": 0.05863723158836365
+      },
+      {
+        "image": "coffee",
+        "invalid_text_id": 10,
+        "invalid_text": "a cup of tea on a wooden table",
+        "invalid_score": 0.18987324833869934,
+        "best_valid_score": 0.2516423761844635,
+        "margin": 0.06176912784576416
+      }
+    ]
+  }
+}
